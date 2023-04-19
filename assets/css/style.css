@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 60.2%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background: url(../img/wallpaperbetter\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+header img {
+    border-radius: 50%;
+    width: 40rem;
+
+}
+
+.container{
+    max-width: 540px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    height: 100%;
+    font-size: 1.4rem;
+}
+
+
+footer{
+    font-size: 3rem;
+
+}
