@@ -98,12 +98,26 @@ ul li {
     #00b6ff
   );
 
+  
+
   height: 4.5rem;
   display: flex;
   align-items: center;
   border-radius: 2rem;
   cursor: pointer;
+  transition: 500ms;
 }
+
+ul li:hover {
+  transform: scale(1.02);
+  transition: 500ms;
+}
+
+ul li:active {
+  transform: scale(.98);
+  transition: 500ms;
+}
+
 
 ul li a {
   padding: 0 45px;
